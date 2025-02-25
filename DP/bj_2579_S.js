@@ -1,6 +1,6 @@
 let fs = require("fs");
 let input = fs
-    .readFileSync("test.txt")
+    .readFileSync("/dev/stdin")
     .toString()
     .split("\n")
     .map((e) => Number(e));
